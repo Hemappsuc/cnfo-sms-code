@@ -1,0 +1,67 @@
+{
+  "mimo-v2.6-flash": {
+    "display_name": "MiMo-v2.6-Flash",
+    "base_url": "https://token-plan-cn.xiaomimimo.com/v1",
+    "base_url_env": "MIMO_BASE_URL",
+    "api_key_env": "MIMO_API_KEY",
+    "token_parameter": "max_completion_tokens",
+    "request": {"extra_body": {"thinking": {"type": "enabled"}}}
+  },
+  "qwen3.8-flash": {
+    "display_name": "Qwen3.8-Flash",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "base_url_env": "DASHSCOPE_BASE_URL",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "token_parameter": "max_tokens",
+    "request": {"extra_body": {"enable_thinking": true}}
+  },
+  "deepseek-flash": {
+    "display_name": "DeepSeek-v4-Flash",
+    "base_url": "https://api.deepseek.com/v1",
+    "base_url_env": "DEEPSEEK_BASE_URL",
+    "api_key_env": "DEEPSEEK_API_KEY",
+    "token_parameter": "max_tokens",
+    "request": {"extra_body": {"thinking": {"type": "enabled"}}}
+  },
+  "glm-5.2": {
+    "display_name": "GLM-5.2",
+    "base_url": "https://api.rivoapi.com/v1",
+    "base_url_env": "RIVO_BASE_URL",
+    "api_key_env": "RIVO_API_KEY",
+    "token_parameter": "max_tokens",
+    "request": {"extra_body": {"thinking": {"type": "enabled"}}}
+  },
+  "gpt-5.5": {
+    "display_name": "GPT-5.5",
+    "base_url": "https://api.rivoapi.com/v1",
+    "base_url_env": "RIVO_BASE_URL",
+    "api_key_env": "RIVO_API_KEY",
+    "token_parameter": "max_completion_tokens",
+    "request": {"reasoning_effort": "medium"}
+  },
+  "gemini-3-flash-preview": {
+    "display_name": "Gemini-3-Flash",
+    "base_url": "https://api.rivoapi.com/v1",
+    "base_url_env": "RIVO_BASE_URL",
+    "api_key_env": "RIVO_API_KEY",
+    "token_parameter": "max_tokens",
+    "request": {"reasoning_effort": "medium"}
+  },
+  "claude-haiku-4-5-20251001": {
+    "display_name": "Claude Haiku 4.5",
+    "base_url": "https://api.rivoapi.com/v1",
+    "base_url_env": "RIVO_BASE_URL",
+    "api_key_env": "RIVO_API_KEY",
+    "token_parameter": "max_tokens",
+    "request": {"extra_body": {"thinking": {"type": "enabled", "budget_tokens": 1024}}}
+  },
+  "grok-4.5": {
+    "display_name": "Grok 4.5",
+    "base_url": "https://api.rivoapi.com/v1",
+    "base_url_env": "RIVO_BASE_URL",
+    "api_key_env": "RIVO_API_KEY",
+    "token_parameter": "max_tokens",
+    "allowed_returned_models": ["grok-4.5", "grok-4.5-build"],
+    "request": {"reasoning_effort": "medium"}
+  }
+}

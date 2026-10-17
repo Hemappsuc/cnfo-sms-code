@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
+secrets*.json
+*_credentials.json
+*_secrets.json
+*_api_keys.json
+dataset/**
+results/**
+models/**
+*.tmp
+.DS_Store

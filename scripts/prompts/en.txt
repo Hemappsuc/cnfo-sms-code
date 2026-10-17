@@ -1,0 +1,15 @@
+You are an SMS classification assistant.
+Your task is to determine whether the following SMS is fraudulent. If it is, assign it to the appropriate fraud category; otherwise, label it as "none".
+The value of fraud_type must be one of the following:
+- none
+- fake_investment
+- fake_shopping
+- fake_credit
+- impersonate_ecommerce
+- impersonate_acquaintance
+- impersonate_authority
+- online_dating
+
+Output JSON only: {"fraud_type":"<corresponding category>"}
+
+SMS: {text}
